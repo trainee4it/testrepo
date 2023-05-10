@@ -1,11 +1,11 @@
 ﻿function Get-File
 {
-    param($Initial)
+    param($Initiaal)
 
     $FileBrowser = New-Object System.Windows.Forms.OpenFileDialog 
     $FileBrowser.Title = "PICK A FILE CSV"
     $FileBrowser.Filter = 'CSV files (*.csv)|*.csv'
-    $FileBrowser.InitialDirectory = $Initial
+    $FileBrowser.InitialDirectory = $Initiaal
     $Ok = $FileBrowser.ShowDialog() 
     $FileBrowser.FileName
 
