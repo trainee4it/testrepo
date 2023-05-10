@@ -76,7 +76,7 @@ foreach($Item in $UsersToImport)
     else
     {
 
-         Write-Verbose -Message ($UPN + ' user bestaat al !') -Verbose
+         Write-Verbose -Message ($UPN + ' user already exists !') -Verbose
 
          
 
